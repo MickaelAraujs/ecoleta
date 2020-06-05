@@ -2,6 +2,7 @@
   --primary-color: #34CB79;
   --title-color: #322153;
   --text-color: #6C6C80;
+  --title-color-main: #2FB86E;
 }
 
 * {
@@ -11,7 +12,7 @@
 }
 
 body {
-  background: #F0F0F5;
+  background: #212523;
   -webkit-font-smoothing: antialiased;
   color: var(--text-color);
 }

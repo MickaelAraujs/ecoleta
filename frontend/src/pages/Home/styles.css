@@ -31,13 +31,14 @@
 
 #page-home .content main h1 {
   font-size: 54px;
-  color: var(--title-color);
+  color: var(--title-color-main);
 }
 
 #page-home .content main p {
   font-size: 24px;
   margin-top: 24px;
   line-height: 38px;
+  color: #F0F0F5;
 }
 
 #page-home .content main a {

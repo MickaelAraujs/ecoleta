@@ -1,0 +1,37 @@
+#page-success-box {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#page-success-box .box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: slide-up-success 0.8s forwards, opacity-success 2s forwards;
+}
+
+#page-success-box .box h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 15px;
+  color: #2FB86E;
+}
+
+@keyframes slide-up-success {
+  from {
+    margin: 1000px auto;
+  } to {
+    margin: 0;
+  }
+}
+
+@keyframes opacity-success {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}

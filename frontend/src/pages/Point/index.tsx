@@ -11,13 +11,13 @@ const Point = () => {
   return (
     <div id="page-create-point">
       <header>
-        <img src={logo} alt="Ecoleta - Seu marketplace de coleta de resíduos"/>
-
         <Link to="/">
           <FiArrowLeft />
 
           Voltar para página inicial
         </Link>
+
+        <img src={logo} alt="Ecoleta - Seu marketplace de coleta de resíduos"/>
       </header>
 
       <form>
